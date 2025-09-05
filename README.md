@@ -4,40 +4,50 @@
 [![Open in Github Page](https://img.shields.io/badge/Open_in_GitHub%20Page-4078c0)](https://jamesroberthugginsngo.github.io/typescript-mono-repo-template)
 [![Open Tag](https://img.shields.io/badge/Open_Tag-1.0.0-6cc644)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/tree/1.0.0)
 
-Typescript mono repo project template.
+A project template for building monorepos with TypeScript.
 
 # Usage
 
-## Clone
+Follow these instructions to clone this template and start a new project with a clean Git history.
+
+### 1. Clone and Checkout the Template
+
+Clone the repository and replace __YOUR_PROJECT_NAME__ with your desired project name. Then, navigate into the directory and check out the latest stable tag to ensure you have a clean starting point.
 
 ```
-git clone https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template.git PROJECT_NAME
+# Clone the template
+git clone https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template.git YOUR_PROJECT_NAME
+
+# Navigate into your new project's folder
+cd YOUR_PROJECT_NAME
+
+# Checkout the stable tag
+git checkout 1.0.0
 ```
 
-## Remove Git Folder
+### 2. Prepare the Project
 
-Before running the commands below make sure you are in the new project folder.
-
-MacOS/Linux
+Remove the template's Git history and reset the package.json file to begin your new project.
 
 ```
+# Remove the old Git repository
+# Choose the command based on your operating system:
+
+# MacOS/Linux
 rm -rf .git
-```
+rm package.json package-lock.json
 
-Windows
-
-```
+# Windows
 rmdir /s /q .git
+del package.json package-lock.json
 ```
 
-## Reset Package.json
+### 3. Reconfigure Your Project
 
-Before running the commands below make sure you are in the new project folder.
-
-For best result also update the README.md file as `npm init -y` command will take the description value from the this file.
+Run these commands to generate a new `package.json` file and reinstall the core dependencies for your new project.
 
 ```
-rm package.json
+# Run these commands for all operating systems:
 npm init -y
 npm install --save-dev @types/node typescript
 npm pkg set scripts.build="tsc --build"
