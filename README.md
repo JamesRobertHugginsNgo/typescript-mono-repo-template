@@ -4,7 +4,7 @@
 [![Open in Github Page](https://img.shields.io/badge/Open_in_GitHub%20Page-4078c0)](https://jamesroberthugginsngo.github.io/typescript-mono-repo-template)
 [![Open Tag](https://img.shields.io/badge/Open_Tag-1.0.2-6cc644)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/tree/1.0.2)
 
-A project template for building monorepos with TypeScript.
+A project template for building mono repos with TypeScript.
 
 # Usage
 
