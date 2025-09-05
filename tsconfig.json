@@ -1,0 +1,14 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "./src/node"
+		},
+		{
+			"path": "./src/web"
+		},
+		{
+			"path": "./src/lib"
+		}
+	]
+}

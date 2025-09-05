@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"declaration": true,
+		"sourceMap": true,
+		"composite": true,
+		"rootDir": "./src"
+	}
+}

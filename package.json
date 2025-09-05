@@ -1,0 +1,25 @@
+{
+  "name": "typescript-mono-repo-template",
+  "version": "1.0.0",
+  "description": "Typescript mono repo project template.",
+  "scripts": {
+    "build": "npx tsc --build",
+    "watch": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template.git"
+  },
+  "keywords": [],
+  "author": "James Robert Huggins Ngo",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/issues"
+  },
+  "homepage": "https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2"
+  }
+}
