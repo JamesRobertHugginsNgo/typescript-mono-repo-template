@@ -16,16 +16,31 @@ git clone https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template
 
 ## Remove Git Folder
 
+Before running the commands below make sure you are in the new project folder.
+
 MacOS/Linux
 
 ```
-cd PROJECT_NAME
 rm -rf .git
 ```
 
 Windows
 
 ```
-cd PROJECT_NAME
 rmdir /s /q .git
+```
+
+## Reset Package.json
+
+Before running the commands below make sure you are in the new project folder.
+
+For best result also update the README.md file as `npm init -y` command will take the description value from the this file.
+
+```
+rm package.json
+npm init -y
+npm install --save-dev @types/node typescript
+npm pkg set scripts.build="tsc --build"
+npm pkg set scripts.watch="tsc --watch"
+npm pkg set type="module"
 ```
