@@ -1,6 +1,6 @@
 {
   "name": "typescript-mono-repo-template",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Typescript mono repo project template.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
