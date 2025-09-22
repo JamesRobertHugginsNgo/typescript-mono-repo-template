@@ -1,1 +1,1 @@
-export default function lib(): void;
+export default function lib(message: string): void;

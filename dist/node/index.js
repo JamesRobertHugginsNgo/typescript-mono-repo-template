@@ -1,4 +1,3 @@
 import lib from '../lib/index.js';
-console.log('Node');
-lib();
+lib('NODE');
 //# sourceMappingURL=index.js.map

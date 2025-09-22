@@ -1,11 +1,20 @@
 {
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
-		"module": "esnext",
+		"lib": [
+			"es2022",
+			"dom"
+		],
+		"module": "nodenext",
 		"outDir": "../../dist",
 		"target": "es2022"
 	},
 	"include": [
 		"./**/*.ts"
+	],
+	"references": [
+		{
+			"path": "../lib"
+		}
 	]
 }

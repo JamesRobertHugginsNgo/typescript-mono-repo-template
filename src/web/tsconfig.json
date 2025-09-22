@@ -1,13 +1,13 @@
 {
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
-		"target": "es2022",
-		"module": "esnext",
 		"lib": [
 			"es2022",
 			"dom"
 		],
-		"outDir": "../../dist/"
+		"module": "esnext",
+		"outDir": "../../dist",
+		"target": "es2022",
 	},
 	"include": [
 		"./**/*.ts"
