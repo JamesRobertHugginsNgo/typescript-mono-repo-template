@@ -1,5 +1,9 @@
 {
-	"files": [],
+	"exclude": [
+		"dist",
+		"node_modules",
+		"parcel"
+	],
 	"references": [
 		{
 			"path": "./src/node"

@@ -35,10 +35,12 @@ Remove the template's Git history and reset the package.json file to begin your 
 
 # MacOS/Linux
 rm -rf .git
+rm -rf dist
 rm package.json package-lock.json
 
 # Windows
 rmdir /s /q .git
+rmdir /s /q dist
 del package.json package-lock.json
 ```
 
@@ -53,5 +55,6 @@ npm install --save-dev @types/node typescript
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
+npm pkg set scripts.bundle="parcel src/bundle/index.html --dist-dir dist/bundle"
 npm pkg set type="module"
 ```

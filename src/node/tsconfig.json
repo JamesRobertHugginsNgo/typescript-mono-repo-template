@@ -1,12 +1,12 @@
 {
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
-		"target": "es2022",
-		"module": "nodenext",
 		"lib": [
 			"es2022"
 		],
-		"outDir": "../../dist"
+		"module": "nodenext",
+		"outDir": "../../dist",
+		"target": "es2022"
 	},
 	"include": [
 		"./**/*.ts"
