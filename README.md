@@ -55,6 +55,6 @@ npm install --save-dev @types/node typescript
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
-npm pkg set scripts.bundle="parcel src/bundle/index.html --dist-dir dist/bundle"
+npm pkg set scripts.parcel="parcel src/parcel/index.html --dist-dir dist/parcel"
 npm pkg set type="module"
 ```
