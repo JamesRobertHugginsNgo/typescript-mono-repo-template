@@ -717,7 +717,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _indexJs = require("../lib/index.js");
 var _indexJsDefault = parcelHelpers.interopDefault(_indexJs);
-(0, _indexJsDefault.default)('BUNDLE');
+(0, _indexJsDefault.default)('PARCEL');
 
 },{"../lib/index.js":"3Rr4P","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3Rr4P":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
