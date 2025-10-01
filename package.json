@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
     "watch": "tsc --watch",
-    "parcel": "parcel src/parcel/index.html --dist-dir dist/parcel"
+    "parcel:build": "parcel build src/parcel/index.html --dist-dir dist/parcel",
+    "parcel:watch": "parcel src/parcel/index.html --dist-dir dist/parcel"
   },
   "repository": {
     "type": "git",
