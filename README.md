@@ -2,7 +2,7 @@
 
 [![Open in Github](https://img.shields.io/badge/Open_in_GitHub-6e5494)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template)
 [![Open in Github Page](https://img.shields.io/badge/Open_in_GitHub%20Page-4078c0)](https://jamesroberthugginsngo.github.io/typescript-mono-repo-template)
-[![Open Tag](https://img.shields.io/badge/Open_Tag-1.1.4-6cc644)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/tree/1.1.4)
+[![Open Tag](https://img.shields.io/badge/Open_Tag-1.1.5-6cc644)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/tree/1.1.5)
 
 A project template for building mono repos with TypeScript.
 
@@ -51,14 +51,16 @@ Run these commands to generate a new `package.json` file and reinstall the core 
 ```
 # Run these commands for all operating systems:
 npm init -y
-npm install --save-dev @types/node typescript
+npm install --save-dev @types/node parcel typescript
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
 npm pkg set scripts.parcel="parcel src/parcel/index.html --dist-dir dist/parcel"
+npm pkg set scripts.parcel:build="parcel build src/parcel/index.html --dist-dir dist/parcel"
+npm pkg set scripts.parcel:watch="parcel src/parcel/index.html --dist-dir dist/parcel"
 npm pkg set type="module"
 ```
 
 ## Build & Cleanup
 
-If you manually delete the __dist__ folder, you must also delete the __.parcel-cache__ folder before re-running the build command (__npm run parcel:build__ or __npm run parcel:watch__) to ensure all files (like __index.html__) are correctly recreated.
+If you manually delete the `dist` folder, you must also delete the `.parcel-cache` folder before re-running the build command (`npm run parcel:build` or `npm run parcel:watch`) to ensure all files (like `index.html`) are correctly recreated.
