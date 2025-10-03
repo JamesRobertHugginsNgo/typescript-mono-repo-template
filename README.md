@@ -22,7 +22,7 @@ git clone https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template
 cd YOUR_PROJECT_NAME
 
 # Checkout the stable tag
-git checkout 1.1.3
+git checkout 1.1.6
 ```
 
 ### 2. Prepare the Project
@@ -52,6 +52,7 @@ Run these commands to generate a new `package.json` file and reinstall the core 
 # Run these commands for all operating systems:
 npm init -y
 npm install --save-dev @types/node parcel typescript
+npm pkg delete main
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
