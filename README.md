@@ -52,6 +52,7 @@ Run these commands to generate a new `package.json` file and reinstall the core 
 # Run these commands for all operating systems:
 npm init -y
 npm install --save-dev @types/node parcel typescript
+npm pkg delete main
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
