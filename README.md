@@ -2,7 +2,7 @@
 
 [![Open in Github](https://img.shields.io/badge/Open_in_GitHub-6e5494)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template)
 [![Open in Github Page](https://img.shields.io/badge/Open_in_GitHub%20Page-4078c0)](https://jamesroberthugginsngo.github.io/typescript-mono-repo-template)
-[![Open Tag](https://img.shields.io/badge/Open_Tag-1.1.6-6cc644)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/tree/1.1.6)
+[![Open Tag](https://img.shields.io/badge/Open_Tag-1.1.7-6cc644)](https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template/tree/1.1.7)
 
 A project template for building mono repos with TypeScript.
 
@@ -22,7 +22,7 @@ git clone https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template
 cd YOUR_PROJECT_NAME
 
 # Checkout the stable tag
-git checkout 1.1.3
+git checkout 1.1.7
 ```
 
 ### 2. Prepare the Project
@@ -52,6 +52,7 @@ Run these commands to generate a new `package.json` file and reinstall the core 
 # Run these commands for all operating systems:
 npm init -y
 npm install --save-dev @types/node parcel typescript
+npm pkg delete main
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
