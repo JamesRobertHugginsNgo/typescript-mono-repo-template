@@ -22,7 +22,7 @@ git clone https://github.com/JamesRobertHugginsNgo/typescript-mono-repo-template
 cd YOUR_PROJECT_NAME
 
 # Checkout the stable tag
-git checkout 1.1.3
+git checkout 1.1.6
 ```
 
 ### 2. Prepare the Project
