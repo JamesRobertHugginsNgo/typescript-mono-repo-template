@@ -1,6 +1,10 @@
 {
 	"compilerOptions": {
-		"noEmit": true
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"target": "es2022",
+		"useDefineForClassFields": true
 	},
 	"exclude": [
 		"dist",
