@@ -1,0 +1,1 @@
+{"mappings":"ACAe,kDAAa,OAAe;IAC1C,QAAQ,GAAG,CAAC;AACb;AAEA,yCAAI;;;ADFJ,CAAA,GAAA,wCAAE,EAAE","sources":["src/parcel/index.ts","src/lib/index.ts"],"sourcesContent":["import lib from '../lib/index.js';\n\nlib('PARCEL');\n","export default function lib(message: string) {\n\tconsole.log(message);\n}\n\nlib('LIB');\n"],"names":[],"version":3,"file":"parcel.b24c69eb.js.map"}
