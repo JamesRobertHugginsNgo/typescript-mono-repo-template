@@ -56,7 +56,7 @@ npm pkg delete main
 npm pkg set license="MIT"
 npm pkg set scripts.build="tsc --build"
 npm pkg set scripts.watch="tsc --watch"
-npm pkg set scripts.parcel:build="parcel build src/parcel/index.html --dist-dir dist/parcel"
+npm pkg set scripts.parcel:build="parcel build src/parcel/index.html --no-optimize --dist-dir dist/parcel"
 npm pkg set scripts.parcel:watch="parcel src/parcel/index.html --dist-dir dist/parcel"
 npm pkg set type="module"
 ```
