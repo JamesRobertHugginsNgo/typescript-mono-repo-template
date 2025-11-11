@@ -50,6 +50,7 @@ Run these commands to generate a new `package.json` file and reinstall the core 
 
 ```
 # Run these commands for all operating systems:
+echo '# '$(basename "$(pwd)") > README.md
 npm init -y
 npm install --save-dev @types/node parcel typescript
 npm pkg delete main
